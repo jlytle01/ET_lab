@@ -1,5 +1,6 @@
 # ET_lab
-Data acquisition code for evapotranspiration measurement
+Data acquisition code for evapotranspiration measurement.
+
 Roadmap as follows:
 - acquire accurate data from sample sensor on demand over i2c
 - acquire accurate data from network of sensors on demand over i2c
