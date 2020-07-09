@@ -30,7 +30,7 @@ with device:
         forcelb = ((measurement-FX29_zeroforce)*FX29_loadrange)/(FX29_fullforce-FX29_zeroforce)
         
         if abs(forcelb - store) > .2:
-            print("{} pounds of FORCE".format(forcelb))
+            print("{} lbs detected".format(forcelb))
             #print(measurement)
             #print(status)
             #print(check)
